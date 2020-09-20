@@ -7,6 +7,7 @@ import { RouterModule } from '@angular/router';
 import { SharedModule } from 'src/app/shared/shared.module';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { MatDividerModule } from '@angular/material/divider';
+import {ModulesModule} from '../../modules/modules.module';
 @NgModule({
   declarations: [
     DefaultComponent,
@@ -17,6 +18,7 @@ import { MatDividerModule } from '@angular/material/divider';
     CommonModule,
     RouterModule,
     SharedModule,
+    ModulesModule,
     MatSidenavModule,
     MatDividerModule
   ],
